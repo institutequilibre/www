@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Acheter un bon cadeau – Institut Equilibre Toulouges</title>
+<meta name="theme-color" content="#3d5c60">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--sage:#80afa9;--sage-d:#4f857d;--deep:#3d5c60;--cream:#f7f3ed;--sand:#e4e3db;--ink:#2b3836;--r:20px}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Inter,sans-serif;font-weight:300;color:var(--ink);background:var(--cream);line-height:1.65}
+h1,h2{font-family:'Cormorant Garamond',serif;font-weight:500;line-height:1.15}
+.btn{display:inline-block;background:var(--deep);color:#fff;padding:.9rem 1.8rem;border-radius:99px;text-decoration:none;font-weight:400;transition:.25s}
+.btn:hover{background:var(--ink);transform:translateY(-2px)}
+.top{display:flex;justify-content:space-between;align-items:center;padding:1.2rem 1.5rem;background:var(--deep)}
+.top a{color:#fff;text-decoration:none;font-size:.9rem}
+.top .brand{letter-spacing:.25em;text-transform:uppercase;font-size:.8rem}
+.head{background:linear-gradient(rgba(79,133,125,.85),rgba(61,92,96,.95));color:#fff;text-align:center;padding:3.5rem 1.5rem}
+.head h1{font-size:clamp(2.2rem,6vw,3.6rem);font-style:italic;font-weight:400;margin-bottom:.6rem}
+.head p{max-width:520px;margin:auto}
+main{max-width:860px;margin:-1.5rem auto 0;padding:0 1.2rem 4rem}
+.tip{background:#fff;border-left:4px solid var(--sage-d);border-radius:12px;padding:1rem 1.3rem;margin-bottom:1.5rem;font-size:.95rem;box-shadow:0 8px 28px rgba(0,0,0,.06)}
+.tip b{font-weight:500}
+.widget{background:#fff;border-radius:var(--r);padding:1.5rem;min-height:420px;box-shadow:0 10px 30px rgba(0,0,0,.07)}
+.fallback{text-align:center;margin-top:2rem;font-size:.95rem}
+.fallback p{margin-bottom:.8rem;opacity:.8}
+footer{text-align:center;padding:2rem 1rem;font-size:.8rem;opacity:.65}
+footer a{color:inherit}
+@media(max-width:600px){html{font-size:14px}.widget{padding:.8rem}}
+</style>
+</head>
+<body>
+
+<div class="top">
+  <a class="brand" href="index.html">Institut Equilibre</a>
+  <a href="offrir-bon-cadeau.html">← Retour</a>
+</div>
+
+<div class="head">
+  <h1>Acheter un bon cadeau</h1>
+  <p>Choisissez votre bon, payez en ligne et offrez-le en quelques minutes.</p>
+</div>
+
+<main>
+  <div class="tip">
+    <b>Astuce :</b> pensez à utiliser vos identifiants de connexion « Planity ». Après le paiement, n'oubliez pas de vérifier vos spams.
+  </div>
+
+  <div class="widget">
+    <!-- ========== COLLEZ ICI LE CODE PLANITY ========== -->
+<div id="$myContainerId"></div>
+<script>
+    var container = document.getElementById('$myContainerId');
+    window.planity = {
+        key: '-N183SvPHkDfGzHZ6vol',
+        primaryColor: '#80AFA9',
+        // choisissez une des options ci-dessous
+        // container: container,
+        // accountContainer: container,
+        // appointmentContainer: container,
+        giftVoucherContainer: container,
+        // onlineShopContainer: container
+    };
+</script>
+<script src="https://d2skjte8udjqxw.cloudfront.net/widget/production/2/polyfills.latest.js"></script>
+<script src="https://d2skjte8udjqxw.cloudfront.net/widget/production/2/app.latest.js"></script>
+    <!-- ================================================ -->
+  </div>
+
+  <div class="fallback">
+    <p>Un souci d'affichage ou une question ?</p>
+    <a class="btn" href="mailto:contact@institutequilibre.fr?subject=Bon%20cadeau">Nous écrire</a>
+  </div>
+</main>
+
+<footer>© 2026 Institut Equilibre · Toulouges · <a href="index.html#contact">Contact</a></footer>
+
+</body>
+</html>
