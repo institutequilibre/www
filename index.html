@@ -173,6 +173,26 @@ footer{text-align:center;padding:2rem 1rem 6rem;font-size:.8rem;opacity:.65}
   .cta{width:100%}
   .grid4 a{aspect-ratio:16/10}
 }
+
+  /* Conversion */
+body{font-weight:400}
+.promo{display:block;background:var(--ink);color:#fff;text-align:center;text-decoration:none;font-size:.85rem;padding:.7rem 5rem .7rem 1rem;line-height:1.35}
+.promo b{font-weight:500;border-bottom:1px solid currentColor;white-space:nowrap}
+.proof{display:inline-block;margin-top:1.4rem;color:#fff;text-decoration:none;font-size:.95rem;border-bottom:1px solid rgba(255,255,255,.5)}
+summary .from{margin-left:auto;font:400 .85rem Inter,sans-serif;color:var(--sage-d);white-space:nowrap}
+.body .btn.book{margin-top:1.2rem}
+.rv-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.2rem;margin-top:2rem}
+.rv figure{background:#fff;border-radius:var(--r);padding:1.6rem}
+.rv blockquote{font-family:'Cormorant Garamond',serif;font-size:1.25rem;font-style:italic;line-height:1.35}
+.rv figcaption{margin-top:.8rem;font-size:.85rem;opacity:.7}
+.mbar{display:none}
+@media(max-width:600px){
+  html{font-size:16px}
+  .mbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:1001;gap:.5rem;padding:.6rem .7rem calc(.6rem + env(safe-area-inset-bottom));background:#fff;box-shadow:0 -6px 20px rgba(0,0,0,.12)}
+  .mbar a{flex:1;text-align:center;padding:.85rem .4rem;border-radius:99px;text-decoration:none;font-weight:500;font-size:.95rem;color:#fff;background:var(--sage-d)}
+  .mbar a:first-child{flex:1.7;background:var(--deep)}
+}
+  
 </style>
 </head>
 
@@ -185,6 +205,8 @@ footer{text-align:center;padding:2rem 1rem 6rem;font-size:.8rem;opacity:.65}
   
 <body>
 
+  <a class="promo" href="offrir-bon-cadeau.html">🎁 Noël approche : offrez un bon cadeau massage ou soin <b>Voir →</b></a>
+  
 <button class="floating-menu-btn" id="menuBtn" aria-label="Menu" aria-expanded="false" aria-controls="floatingMenu">☰</button>
 
 <div class="floating-menu" id="floatingMenu">
@@ -206,6 +228,7 @@ footer{text-align:center;padding:2rem 1rem 6rem;font-size:.8rem;opacity:.65}
       <a href="https://www.planity.com/institut-equilibre-66350-toulouges" target="_blank" rel="noopener" class="btn light">Prendre rendez-vous</a>
       <a href="#prestations" class="btn ghost">Découvrir les soins</a>
     </div>
+    <a class="proof" href="https://www.planity.com/institut-equilibre-66350-toulouges" target="_blank" rel="noopener"><span class="stars">★★★★★</span> 5,0 · 88 avis sur Planity</a>
   </div>
 </header>
 
@@ -229,6 +252,30 @@ footer{text-align:center;padding:2rem 1rem 6rem;font-size:.8rem;opacity:.65}
   </div>
 </section>
 
+  <section class="rv" hidden>
+  <div class="wrap">
+    <span class="eyebrow">Avis clients</span>
+    <h2>Elles en parlent</h2>
+    <div class="rv-grid">
+      <figure><blockquote>« AVIS 1 »</blockquote><figcaption>Prénom · Planity</figcaption></figure>
+      <figure><blockquote>« AVIS 2 »</blockquote><figcaption>Prénom · Planity</figcaption></figure>
+      <figure><blockquote>« AVIS 3 »</blockquote><figcaption>Prénom · Planity</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+  <section class="rv" hidden>
+  <div class="wrap">
+    <span class="eyebrow">Avis clients</span>
+    <h2>Elles en parlent</h2>
+    <div class="rv-grid">
+      <figure><blockquote>« AVIS 1 »</blockquote><figcaption>Prénom · Planity</figcaption></figure>
+      <figure><blockquote>« AVIS 2 »</blockquote><figcaption>Prénom · Planity</figcaption></figure>
+      <figure><blockquote>« AVIS 3 »</blockquote><figcaption>Prénom · Planity</figcaption></figure>
+    </div>
+  </div>
+</section>
+  
 <section class="cabinet">
   <div class="wrap">
     <div>
@@ -255,7 +302,7 @@ footer{text-align:center;padding:2rem 1rem 6rem;font-size:.8rem;opacity:.65}
     <div class="acc">
 
       <details open>
-        <summary>Massages corps Equilibre</summary>
+        <summary><span>Massages corps Equilibre</span><small class="from">dès 40 €</small></summary>
         <div class="body">
           <p class="quote">« Lorsque les tensions du corps sont soulagées, l'esprit retrouve sa sérénité. »</p>
           <div class="split has-img">
@@ -276,7 +323,7 @@ footer{text-align:center;padding:2rem 1rem 6rem;font-size:.8rem;opacity:.65}
       </details>
 
       <details>
-        <summary>Massages visage facialiste</summary>
+        <summary><span>Massages visage facialiste</span><small class="from">dès 70 €</small></summary>
         <div class="body">
           <div class="split has-img">
             <div>
@@ -291,7 +338,7 @@ footer{text-align:center;padding:2rem 1rem 6rem;font-size:.8rem;opacity:.65}
       </details>
 
       <details>
-        <summary>Drainage lymphatique Vodder</summary>
+        <summary><span>Drainage lymphatique Vodder</span><small class="from">dès 40 €</small></summary>
         <div class="body">
           <div class="split has-img">
             <div>
@@ -308,7 +355,7 @@ footer{text-align:center;padding:2rem 1rem 6rem;font-size:.8rem;opacity:.65}
       </details>
 
       <details>
-        <summary>Soins visage Mansard</summary>
+        <summary><span>Soins visage Mansard</span><small class="from">dès 29 €</small></summary>
         <div class="body">
           <p class="quote">Les Laboratoires Mansard, experts de la peau depuis plus de 40 ans.</p>
           <p>Le diagnostic de peau est vivement conseillé avant tout premier soin : il détermine les soins adaptés à vos attentes et établit l'ordonnance de soins pour votre routine beauté.</p>
@@ -321,7 +368,7 @@ footer{text-align:center;padding:2rem 1rem 6rem;font-size:.8rem;opacity:.65}
       </details>
 
       <details>
-        <summary>Rituels SPA du corps Mansard</summary>
+        <summary><span>Rituels SPA du corps Mansard</span><small class="from">dès 32 €</small></summary>
         <div class="body">
           <p class="quote">Inspirés des plus beaux jardins du monde : voyages sensoriels grâce à la puissance des végétaux.</p>
           <p><b>Trois destinations :</b> Jardin de Taraho'i (noix de coco, litchi, tiaré), Jardin marocain (argan, sésame, baume fondant), Jardin impérial de Kyoto (thé matcha, huiles de macadamia et pépins de raisin).</p>
@@ -422,6 +469,12 @@ footer{text-align:center;padding:2rem 1rem 6rem;font-size:.8rem;opacity:.65}
 <footer>© 2026 Institut Equilibre · Toulouges</footer>
 <a href="https://www.planity.com/institut-equilibre-66350-toulouges" target="_blank" rel="noopener" class="btn sticky">Prendre rendez-vous</a>
 
+  <nav class="mbar" aria-label="Actions rapides">
+  <a href="https://www.planity.com/institut-equilibre-66350-toulouges" target="_blank" rel="noopener">Réserver</a>
+  <a href="tel:+33769863611">Appeler</a>
+  <a href="sms:+33769863611">SMS</a>
+</nav>
+  
 <script>
 const menuBtn = document.getElementById('menuBtn');
 const menu = document.getElementById('floatingMenu');
@@ -437,6 +490,16 @@ menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => setMen
 document.addEventListener('click', e => {
   if(!menu.contains(e.target) && !menuBtn.contains(e.target)) setMenu(false);
 });
+
+  document.querySelectorAll('details .body').forEach(b=>{
+  const a=document.createElement('a');
+  a.className='btn book';
+  a.href='https://www.planity.com/institut-equilibre-66350-toulouges';
+  a.target='_blank';a.rel='noopener';
+  a.textContent='Réserver ce soin';
+  b.appendChild(a);
+});
+  
 </script>
 
 </body>
