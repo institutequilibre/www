@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Institut Equilibre – Toulouges – Esthétique et bien-être</title>
+<meta name="description" content="Institut Equilibre à Toulouges, près de Perpignan : massages sur mesure, soins visage Mansard, drainage lymphatique Vodder et esthétique.">
+<meta name="theme-color" content="#3d5c60">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Institut Equilibre – Toulouges">
+<meta property="og:description" content="Massages sur mesure, soins visage Mansard, drainage Vodder.">
+<meta property="og:image" content="https://static.wixstatic.com/media/13d822_5ac5c708a9514d09abbd422a4cc69b2e~mv2.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"BeautySalon",
+  "name":"Institut Equilibre",
+  "telephone":"+33769863611",
+  "email":"contact@institutequilibre.fr",
+  "address":{"@type":"PostalAddress","streetAddress":"3 Boulevard de Clairfont, Naturopôle BAT J","postalCode":"66350","addressLocality":"Toulouges","addressCountry":"FR"},
+  "openingHoursSpecification":[
+    {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Thursday","Friday"],"opens":"10:00","closes":"19:00"},
+    {"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"10:00","closes":"13:00"}
+  ]
+}
+</script>
+<style>
+:root{--sage:#80afa9;--sage-d:#4f857d;--deep:#3d5c60;--cream:#f7f3ed;--sand:#e4e3db;--ink:#2b3836;--r:20px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:20px}
+body{font-family:Inter,sans-serif;font-weight:300;color:var(--ink);background:var(--cream);line-height:1.65}
+h1,h2,h3{font-family:'Cormorant Garamond',serif;font-weight:500;line-height:1.15}
+h2{font-size:clamp(2rem,5vw,3rem);margin-bottom:.6rem}
+img{max-width:100%;display:block}
+section{padding:clamp(3.5rem,9vw,6rem) 1.5rem}
+.wrap{max-width:1050px;margin:auto}
+.eyebrow{text-transform:uppercase;letter-spacing:.18em;font-size:.75rem;color:var(--sage-d);font-weight:500;margin-bottom:.8rem;display:block}
+.btn{display:inline-block;background:var(--deep);color:#fff;padding:.9rem 1.8rem;border-radius:99px;text-decoration:none;font-weight:400;transition:.25s}
+.btn:hover{background:var(--ink);transform:translateY(-2px)}
+.btn.ghost{background:transparent;border:1px solid #fff}
+.btn.ghost:hover{background:#fff;color:var(--ink)}
+.btn.light{background:#fff;color:var(--deep)}
+
+.hero{min-height:640px;display:grid;place-items:center;text-align:center;color:#fff;padding:6rem 1.5rem 3rem;
+background:linear-gradient(rgba(79,133,125,.8),rgba(61,92,96,.9)),url('https://static.wixstatic.com/media/13d822_5ac5c708a9514d09abbd422a4cc69b2e~mv2.png') center/cover}
+.hero .brand{letter-spacing:.3em;text-transform:uppercase;font-size:.9rem}
+.hero h1{font-size:clamp(2.4rem,7vw,5rem);margin:.6rem 0 1rem;font-style:italic;font-weight:400}
+.hero p{max-width:540px;margin:0 auto 2rem;font-size:1.1rem}
+.actions{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap}
+
+.about{display:grid;gap:3rem;align-items:center}
+@media(min-width:800px){.about{grid-template-columns:1fr 1.3fr}}
+.about > img{border-radius:var(--r);width:100%;aspect-ratio:3/4;object-fit:cover}
+.about p{margin-bottom:1rem}
+
+.reviews{display:grid;grid-template-columns:auto 1fr;gap:.3rem 1.2rem;align-items:center;margin-top:1.5rem;padding:1.3rem 1.6rem;background:#fff;border-radius:var(--r);text-decoration:none;color:var(--ink);box-shadow:0 8px 28px rgba(0,0,0,.08);border:1px solid var(--sand);max-width:420px;transition:.25s}
+.reviews:hover{transform:translateY(-3px);box-shadow:0 14px 34px rgba(0,0,0,.14)}
+.g-logo{grid-column:1/-1;font:600 1.3rem/1 Arial,sans-serif;letter-spacing:-.02em}
+.g-logo i{font-style:normal}
+.g-logo i:nth-child(1),.g-logo i:nth-child(4){color:#4285f4}
+.g-logo i:nth-child(2),.g-logo i:nth-child(6){color:#ea4335}
+.g-logo i:nth-child(3){color:#fbbc05}
+.g-logo i:nth-child(5){color:#34a853}
+.score{display:flex;align-items:center;gap:.6rem}
+.score b{font:500 2.6rem/1 'Cormorant Garamond',serif}
+.stars{color:#fbbc05;font-size:1.2rem;letter-spacing:.08em}
+.reviews-txt{display:flex;flex-direction:column;line-height:1.35}
+.reviews-txt b{font-weight:500;font-size:.95rem}
+.reviews-txt small{font-size:.8rem;opacity:.7}
+.cta{grid-column:1/-1;margin-top:.6rem;padding:.6rem 1rem;background:var(--deep);color:#fff;border-radius:99px;text-align:center;font-size:.85rem;font-weight:400;transition:.25s}
+.reviews:hover .cta{background:var(--sage-d)}
+
+.cabinet{background:#fff}
+.cabinet .wrap{display:grid;gap:3rem;align-items:center}
+@media(min-width:800px){.cabinet .wrap{grid-template-columns:1.2fr 1fr}}
+.cabinet img{border-radius:var(--r);width:100%;object-fit:cover}
+.cabinet ul{list-style:none;margin-top:1rem}
+.cabinet li{padding:.4rem 0 .4rem 1.4rem;position:relative}
+.cabinet li:before{content:"✦";position:absolute;left:0;color:var(--sage-d);font-size:.8rem;top:.65rem}
+
+.services .acc{margin-top:2.5rem;display:grid;gap:1rem}
+details{background:#fff;border-radius:var(--r);padding:0 1.6rem;transition:.3s}
+details[open]{box-shadow:0 10px 30px rgba(0,0,0,.07)}
+summary{list-style:none;cursor:pointer;padding:1.4rem 0;display:flex;justify-content:space-between;align-items:center;gap:1rem;font-family:'Cormorant Garamond',serif;font-size:1.5rem}
+summary::-webkit-details-marker{display:none}
+summary::after{content:'+';font-size:1.8rem;color:var(--sage-d);transition:.3s}
+details[open] summary::after{transform:rotate(45deg)}
+.body{padding-bottom:1.6rem}
+.body>p{margin-bottom:1rem}
+.quote{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:1.2rem;color:var(--sage-d)}
+.row{display:flex;justify-content:space-between;gap:1rem;padding:.8rem 0;border-top:1px solid var(--sand)}
+.row div span{display:block;font-size:.88rem;opacity:.75}
+.row b{font-weight:500;color:var(--sage-d);white-space:nowrap}
+.row strong{font-weight:500}
+.sub{font-family:'Cormorant Garamond',serif;font-size:1.25rem;color:var(--sage-d);margin:1.2rem 0 .2rem;font-style:italic}
+.split{display:grid;gap:1.5rem}
+@media(min-width:800px){.split.has-img{grid-template-columns:1fr 240px}}
+.split img{border-radius:16px;width:100%;height:100%;max-height:340px;object-fit:cover}
+.more{display:inline-block;margin-top:.8rem;color:var(--deep);font-weight:500;text-decoration:none;border-bottom:1px solid}
+
+.mansard{background:var(--sand)}
+.mansard .wrap{display:grid;gap:2.5rem;align-items:center}
+@media(min-width:800px){.mansard .wrap{grid-template-columns:1.3fr 1fr}}
+.pics{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.pics img{border-radius:var(--r);height:100%;object-fit:cover;aspect-ratio:3/4}
+
+.esth{background:var(--sage);color:#fff;text-align:center}
+.esth .eyebrow{color:#fff}
+.esth p{max-width:560px;margin:0 auto 1.5rem}
+.grid4{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:1rem;margin:2rem 0}
+.grid4 a{position:relative;border-radius:var(--r);overflow:hidden;aspect-ratio:5/4;display:block;color:#fff;text-decoration:none}
+.grid4 img{width:100%;height:100%;object-fit:cover;transition:.4s}
+.grid4 a:hover img{transform:scale(1.06)}
+.grid4 span{position:absolute;inset:auto 0 0;padding:1.5rem 1rem .9rem;background:linear-gradient(transparent,rgba(0,0,0,.65));color:#fff;font-family:'Cormorant Garamond',serif;font-size:1.3rem;text-align:left}
+
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1.2rem;margin-top:2rem}
+.card{background:#fff;border-radius:var(--r);padding:2rem;text-align:center}
+.card h3{font-size:1.4rem;margin-bottom:.4rem}
+.pro{background:var(--deep);color:#fff;text-align:center}
+.pro .eyebrow{color:var(--sage)}
+.pro .actions{margin-top:1.5rem}
+.pro p{max-width:560px;margin:0 auto}
+
+.contact .wrap{display:grid;gap:2.5rem}
+@media(min-width:800px){.contact .wrap{grid-template-columns:1fr 1.2fr}}
+.contact p{margin-bottom:1rem}
+.contact a{color:var(--deep)}
+iframe{border:0;border-radius:var(--r);width:100%;min-height:320px;height:100%}
+.social{display:flex;gap:1.2rem;margin-top:1rem}
+footer{text-align:center;padding:2rem 1rem 6rem;font-size:.8rem;opacity:.65}
+
+.sticky{display:block;position:fixed;bottom:20px;left:50%;transform:translateX(-50%);z-index:1001;box-shadow:0 10px 25px rgba(0,0,0,.25)}
+
+/* Bouton menu flottant */
+.floating-menu-btn{position:fixed;top:20px;right:20px;width:60px;height:60px;border:none;border-radius:50%;background:var(--deep);color:#fff;font-size:1.8rem;cursor:pointer;z-index:10000;box-shadow:0 10px 25px rgba(0,0,0,.25);transition:.3s;-webkit-tap-highlight-color:transparent;touch-action:auto}
+.floating-menu-btn:hover{transform:scale(1.05);background:var(--sage-d)}
+
+/* Menu */
+.floating-menu{position:fixed;top:90px;right:20px;width:260px;background:#fff;border-radius:20px;padding:1rem;display:flex;flex-direction:column;gap:.7rem;box-shadow:0 15px 40px rgba(0,0,0,.18);opacity:0;visibility:hidden;pointer-events:none;transform:translateY(-10px);transition:.3s;touch-action:auto;z-index:999}
+.floating-menu.active{opacity:1;visibility:visible;pointer-events:auto;transform:translateY(0)}
+.floating-menu a{text-decoration:none;color:var(--ink);padding:.8rem 1rem;border-radius:12px;transition:.2s}
+.floating-menu a:hover{background:var(--sand)}
+.btn-menu{background:var(--deep);color:#fff !important;text-align:center;margin-top:.5rem}
+.btn-menu:hover{background:var(--sage-d) !important}
+
+/* Mobile (en dernier pour prendre le dessus) */
+@media(max-width:600px){
+  html{font-size:14px}
+  body{line-height:1.5}
+  .sticky{display:none}
+  section{padding:2.5rem 1rem}
+  .hero{min-height:0;padding:2.5rem 1rem}
+  .hero .brand{font-size:.7rem;letter-spacing:.2em}
+  .hero h1{font-size:2rem;margin:.5rem 0 .8rem}
+  .hero p{font-size:.95rem;margin-bottom:1.3rem}
+  .actions .btn{width:100%;text-align:center;padding:.75rem 1rem}
+  h2{font-size:1.8rem}
+  details{padding:0 1rem}
+  summary{font-size:1.15rem;padding:1rem 0}
+  .row{flex-direction:row;align-items:flex-start;gap:.8rem;padding:.6rem 0}
+  .row b{white-space:nowrap;margin-left:auto}
+  .quote{font-size:1.05rem}
+  .about img{aspect-ratio:4/5;max-height:380px}
+  .reviews{display:flex;flex-direction:column;align-items:center;text-align:center;gap:.5rem;max-width:100%;padding:1.2rem 1rem}
+  .score{justify-content:center}
+  .score b{font-size:2.2rem}
+  .reviews-txt{align-items:center}
+  .cta{width:100%}
+  .grid4 a{aspect-ratio:16/10}
+}
+</style>
+</head>
+<body>
+
+<button class="floating-menu-btn" id="menuBtn" aria-label="Menu" aria-expanded="false" aria-controls="floatingMenu">☰</button>
+
+<div class="floating-menu" id="floatingMenu">
+    <a href="#apropos">L'institut</a>
+    <a href="#prestations">Prestations</a>
+    <a href="#mansard">Produits Mansard</a>
+    <a href="#esthetique">Esthétique</a>
+    <a href="#entreprise">Entreprise</a>
+    <a href="#contact">Contact</a>
+    <a href="https://www.planity.com/institut-equilibre-66350-toulouges" target="_blank" rel="noopener" class="btn-menu">Réserver</a>
+</div>
+
+<header class="hero">
+  <div>
+    <div class="brand">Institut Equilibre · Toulouges</div>
+    <h1>Prendre soin de soi, c'est s'accorder de l'importance</h1>
+    <p>Esthétique et bien-être : massages sur mesure, soins visage et rituels du corps dans un cabinet intimiste.</p>
+    <div class="actions">
+      <a href="https://www.planity.com/institut-equilibre-66350-toulouges" target="_blank" rel="noopener" class="btn light">Prendre rendez-vous</a>
+      <a href="#prestations" class="btn ghost">Découvrir les soins</a>
+    </div>
+  </div>
+</header>
+
+<section id="apropos">
+  <div class="wrap about">
+    <img src="https://static.wixstatic.com/media/13d822_c022af114e3a4093a741400dfe76f7ef~mv2.png" alt="Portrait de la praticienne" loading="lazy">
+    <div>
+      <span class="eyebrow">Bienvenue</span>
+      <h2>Prendre soin de vous par le toucher et la douceur</h2>
+      <p>Esthéticienne D.E et masso-relaxologue, j'ai choisi une approche globale du mieux-être pour soutenir votre corps et apaiser votre esprit.</p>
+      <p>Le pouvoir des plantes est au cœur de ma philosophie : spécialiste de la peau, j'utilise les produits des <b>Laboratoires Mansard</b> pour des soins visage naturels, efficaces et respectueux.</p>
+      <p>Côté massage, ma spécialité : <b>le sur-mesure</b>. Chaque massage doit être aussi singulier que vous l'êtes : nous échangeons avant le soin pour adapter mes gestes à vos besoins.</p>
+
+      <a class="reviews" href="https://share.google/BgqpHiEWUVIyXNBQk" target="_blank" rel="noopener">
+        <span class="g-logo"><i>G</i><i>o</i><i>o</i><i>g</i><i>l</i><i>e</i></span>
+        <span class="score"><b>5,0</b><span class="stars">★★★★★</span></span>
+        <span class="reviews-txt"><b>Clientes ravies, résultats visibles</b><small>Lisez les avis vérifiés Google &amp; Planity</small></span>
+        <span class="cta">Voir les avis →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="cabinet">
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">Bulle bien-être</span>
+      <h2>Un cabinet intimiste de beauté privé</h2>
+      <p>Cabinet entièrement refait à neuf au Naturopôle de Toulouges, proche du centre-ville, à proximité de Perpignan, Canohès, Le Soler et Thuir. Matières naturelles, teintes douces et chaleureuses, trois espaces dédiés à l'esthétique et au massage.</p>
+      <ul>
+        <li>Accès uniquement sur rendez-vous, interphone à l'arrivée</li>
+        <li>Merci de ne pas arriver en avance, pour préparer au mieux votre soin</li>
+        <li>Pendant les soins, l'institut est fermé et le téléphone coupé : votre moment n'est jamais interrompu</li>
+        <li>Pour vos achats ou conseils bon cadeau, prenez RDV par SMS</li>
+      </ul>
+    </div>
+    <img src="https://static.wixstatic.com/media/13d822_1db232766b9149e7a47c254e015a1dd3~mv2.png" alt="Le cabinet" loading="lazy">
+  </div>
+</section>
+
+<section id="prestations" class="services">
+  <div class="wrap">
+    <span class="eyebrow">Prestations</span>
+    <h2>Nos soins</h2>
+    <p>Choisissez votre univers, tout est pensé sur mesure.</p>
+
+    <div class="acc">
+
+      <details open>
+        <summary>Massages corps Equilibre</summary>
+        <div class="body">
+          <p class="quote">« Lorsque les tensions du corps sont soulagées, l'esprit retrouve sa sérénité. »</p>
+          <div class="split has-img">
+            <div>
+              <p>Le meilleur massage, c'est celui qui vous est dédié : une prise en charge globale de votre état physique et émotionnel, de la relaxation au travail musculaire profond. Un rafraîchissement vous est offert après le soin.</p>
+              <div class="row"><span>30 minutes</span><b>40 €</b></div>
+              <div class="row"><span>60 minutes</span><b>70 €</b></div>
+              <div class="row"><span>90 minutes</span><b>90 €</b></div>
+              <p class="sub">Les massages signature</p>
+              <div class="row"><div><strong>Signature Equilibre du corps</strong><span>Sur mesure et consolidant, pour évacuer le stress et relâcher les tensions.</span></div></div>
+              <div class="row"><div><strong>Signature Equilibre de l'esprit</strong><span>Haut du corps, crâne et visage pour un lâcher-prise complet.</span></div></div>
+              <div class="row"><div><strong>Amma assis · 30'</strong><span>Habillé sur chaise ergonomique : pressions, étirements et balayages pour dos, épaules, bras, tête et nuque.</span></div></div>
+              <p style="margin-top:1rem;font-style:italic">« Le corps n'oublie rien, le cœur se souvient de tout. » Offrez-vous ce cadeau : un massage chaque mois installe durablement ses bienfaits.</p>
+            </div>
+            <img src="https://static.wixstatic.com/media/13d822_0297f2e1148643978952b121640dba98~mv2.png" alt="Massage" loading="lazy">
+          </div>
+        </div>
+      </details>
+
+      <details>
+        <summary>Massages visage facialiste</summary>
+        <div class="body">
+          <div class="split has-img">
+            <div>
+              <p>Techniques manuelles non invasives pour travailler en profondeur muscles, épiderme, derme et circulation sanguine et lymphatique. Détend, tonifie, oxygène et accompagne le bien vieillir. Mains et outils de beauté pour une expérience unique.</p>
+              <div class="row"><div><strong>Massage signature Equilibre</strong><span>60 ou 90 min · 100 % manuel + outils : remodelage, drainage Vodder, acupressure, guasha, cupping facial, massage crânien.</span></div><b>70 € · 90 €</b></div>
+              <div class="row"><div><strong>Rituel anti-âge japonais</strong><span>60 ou 90 min · 100 % manuel : nettoyage profond, remodelage, drainage, relaxation cervicales, massage crânien (+ dos en 90 min).</span></div><b>70 € · 90 €</b></div>
+              <a class="more" href="https://www.institutequilibre.fr/massage-visage-facialiste">En savoir plus →</a>
+            </div>
+            <img src="https://static.wixstatic.com/media/13d822_e481af9eae2c46608357fc08c6d450a2~mv2.png" alt="Massage du visage" loading="lazy">
+          </div>
+        </div>
+      </details>
+
+      <details>
+        <summary>Drainage lymphatique Vodder</summary>
+        <div class="body">
+          <div class="split has-img">
+            <div>
+              <p>Technique de massage qui stimule la circulation de la lymphe, à visée médicale ou esthétique : mouvements lents et doux, dans le sens de la circulation lymphatique, avec des variations de pression.</p>
+              <div class="row"><span>30 min · Visage</span><b>40 €</b></div>
+              <div class="row"><span>45 min · Jambes lourdes</span><b>55 €</b></div>
+              <div class="row"><span>60 min · Minceur</span><b>70 €</b></div>
+              <div class="row"><span>90 min · Corps entier</span><b>90 €</b></div>
+              <a class="more" href="https://www.institutequilibre.fr/drainage-lymphatique">En savoir plus →</a>
+            </div>
+            <img src="https://static.wixstatic.com/media/13d822_ba94c8a5c3904e63bfd4b2af43ffc70b~mv2.jpg" alt="Drainage lymphatique" loading="lazy">
+          </div>
+        </div>
+      </details>
+
+      <details>
+        <summary>Soins visage Mansard</summary>
+        <div class="body">
+          <p class="quote">Les Laboratoires Mansard, experts de la peau depuis plus de 40 ans.</p>
+          <p>Le diagnostic de peau est vivement conseillé avant tout premier soin : il détermine les soins adaptés à vos attentes et établit l'ordonnance de soins pour votre routine beauté.</p>
+          <div class="row"><div><strong>Diagnostic de peau</strong><span>60 min</span></div><b>29 €</b></div>
+          <div class="row"><div><strong>Soin BioVisage</strong><span>60 ou 90 min · 100 % appareillé. Phyto bio-électronique : micro-courants et plantes pour détoxifier, nourrir, tonifier, lifting doux et durable. En 90' : massage du dos et masque Caviar.</span></div><b>59 € · 79 €</b></div>
+          <div class="row"><div><strong>Soin Herboriste</strong><span>60 ou 80 min · 100 % manuel. Rituel cocooning sur mesure (hydratant, apaisant, purifiant, éclat, anti-âge), massage visage et crânien. En 90' : massage du dos.</span></div><b>59 € · 79 €</b></div>
+          <div class="row"><div><strong>Soin Détox</strong><span>45 min · Purifie la peau, expulse les toxines, oxygène pour un plus bel éclat.</span></div><b>49 €</b></div>
+          <p style="margin-top:1rem;font-style:italic">Soins proposés en cure, à raison d'un soin par semaine, pour un résultat durable. Cures personnalisables.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Rituels SPA du corps Mansard</summary>
+        <div class="body">
+          <p class="quote">Inspirés des plus beaux jardins du monde : voyages sensoriels grâce à la puissance des végétaux.</p>
+          <p><b>Trois destinations :</b> Jardin de Taraho'i (noix de coco, litchi, tiaré), Jardin marocain (argan, sésame, baume fondant), Jardin impérial de Kyoto (thé matcha, huiles de macadamia et pépins de raisin).</p>
+          <p class="sub">Les gommages · 30'</p>
+          <div class="row"><span>Taraho'i · Marocain · Kyoto</span><b>32 €</b></div>
+          <p class="sub">Les rituels évasion · 60'</p>
+          <p style="font-size:.9rem">Gommage + enveloppement.</p>
+          <div class="row"><span>Taraho'i · Marocain · Kyoto</span><b>69 €</b></div>
+          <p class="sub">Les rituels sensoriels</p>
+          <p style="font-size:.9rem">Gommage 30 min + massage signature au choix (30 ou 60 min).</p>
+          <div class="row"><span>70 min</span><b>69 €</b></div>
+          <div class="row"><span>90 min</span><b>99 €</b></div>
+          <p class="sub">Le grand rituel signature</p>
+          <div class="row"><div><strong>Gommage + enveloppement + massage de 60 min</strong><span>Un voyage hors du temps. Café ou thé et viennoiserie offerts en fin de soin.</span></div><b>129 €</b></div>
+          <p class="sub">Le rituel Joli dos · 45'</p>
+          <div class="row"><div><strong>Soin complet du dos</strong><span>Nettoyage et gommage sous vapeur, extractions si nécessaire (+10'), massage de 20 min, masque traitant et massage crânien.</span></div><b>49 €</b></div>
+        </div>
+      </details>
+
+    </div>
+  </div>
+</section>
+
+<section id="mansard" class="mansard">
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">Phyto-cosmétique</span>
+      <h2>Les produits Mansard</h2>
+      <p>La nature est un bien précieux : je vous propose des soins personnalisés et des cosmétiques 100 % naturels. La beauté extérieure reflète l'état intérieur : grâce à la phytocosmétique, les imperfections sont traitées à la source.</p>
+      <p style="margin-top:1rem">À l'origine de la Phyto Expertise, les Laboratoires Mansard allient technologie et herboristerie, avec des concentrations jusqu'à plus de 30 % d'actifs. Fabriqués en France, en circuits courts, compatibles avec les peaux allergiques, sensibles et intolérantes.</p>
+    </div>
+    <div class="pics">
+      <img src="https://static.wixstatic.com/media/13d822_91150fff921046da989349b1e62af615~mv2.png" alt="Produits Mansard" loading="lazy">
+      <img src="https://static.wixstatic.com/media/13d822_24561e25c70d427bbbc44f854ff3f2d8~mv2.png" alt="Soins Mansard" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<section id="esthetique" class="esth">
+  <div class="wrap">
+    <span class="eyebrow">L'esthétique</span>
+    <h2>Beauté au quotidien</h2>
+    <p>Retrouvez toutes nos prestations esthétiques et leurs tarifs directement sur Planity.</p>
+    <div class="grid4">
+      <a href="https://www.planity.com/institut-equilibre-66350-toulouges" target="_blank" rel="noopener"><img src="https://static.wixstatic.com/media/13d822_99acb9715399426d892ff104abc3d2f4~mv2.jpg" alt="" loading="lazy"><span>Manucure &amp; soins des pieds</span></a>
+      <a href="https://www.planity.com/institut-equilibre-66350-toulouges" target="_blank" rel="noopener"><img src="https://static.wixstatic.com/media/13d822_d4647d2a74444d6e81eb3183ed0cc581~mv2.jpg" alt="" loading="lazy"><span>Épilation</span></a>
+      <a href="https://www.planity.com/institut-equilibre-66350-toulouges" target="_blank" rel="noopener"><img src="https://static.wixstatic.com/media/13d822_ee7d32fe6d884f41973073a7bb11aa50~mv2.jpg" alt="" loading="lazy"><span>Onglerie &amp; regard</span></a>
+      <a href="https://www.planity.com/institut-equilibre-66350-toulouges" target="_blank" rel="noopener"><img src="https://static.wixstatic.com/media/13d822_4639dd72845d4dcfaf536f626682816f~mv2.jpg" alt="" loading="lazy"><span>Maquillage</span></a>
+    </div>
+    <a href="https://www.planity.com/institut-equilibre-66350-toulouges" target="_blank" rel="noopener" class="btn light">Réserver sur Planity</a>
+  </div>
+</section>
+
+<section>
+  <div class="wrap" style="text-align:center">
+    <span class="eyebrow">Programme fidélité</span>
+    <h2>Chaque visite compte</h2>
+    <div class="cards">
+      <div class="card"><h3>Clients de l'institut</h3><p>Une carte fidélité avec de nombreux avantages</p></div>
+      <div class="card"><h3>Professionnels Naturopôle</h3><p><b>5 %</b> de remise</p></div>
+      <div class="card"><h3>Étudiants &amp; demandeurs d'emploi</h3><p><b>10 %</b> de remise</p></div>
+    </div>
+    <p style="margin-top:2rem"><a class="btn" href="https://www.institutequilibre.fr/offrir-bon-cadeau">Offrir un bon cadeau</a></p>
+  </div>
+</section>
+
+<section id="entreprise" class="pro">
+  <div class="wrap">
+    <span class="eyebrow">Pour les entreprises</span>
+    <h2>Massage assis en entreprise</h2>
+    <p>Offrez à vos équipes une pause détente sur le lieu de travail.</p>
+    <div class="actions"><a class="btn light" href="https://www.institutequilibre.fr/massage-assis-entreprise">Découvrir l'offre</a></div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">Contact</span>
+      <h2>Prenez rendez-vous</h2>
+      <p><b>Sur RDV</b><br>Lundi, jeudi et vendredi : 10h – 19h<br>Samedi matin : 10h – 13h</p>
+      <p>3 Boulevard de Clairfont<br>Naturopôle · BAT J · RDC<br>66350 Toulouges</p>
+      <p><a href="tel:+33769863611">07 69 86 36 11</a><br><a href="mailto:contact@institutequilibre.fr">contact@institutequilibre.fr</a></p>
+      <div class="actions" style="justify-content:flex-start">
+        <a class="btn" href="https://www.planity.com/institut-equilibre-66350-toulouges" target="_blank" rel="noopener">Réserver</a>
+        <a class="btn" style="background:var(--sage)" href="https://www.institutequilibre.fr/formulaire-contact">Nous écrire</a>
+      </div>
+      <div class="social">
+        <a href="https://www.instagram.com/institut_equilibre_toulouges/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.facebook.com/institutequilibretoulouges" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://www.tiktok.com/@institut_equilibre" target="_blank" rel="noopener">TikTok</a>
+      </div>
+    </div>
+    <iframe loading="lazy" title="Plan d'accès" src="https://www.google.com/maps?q=3+Boulevard+de+Clairfont+66350+Toulouges&output=embed"></iframe>
+  </div>
+</section>
+
+<footer>© 2026 Institut Equilibre · Toulouges</footer>
+<a href="https://www.planity.com/institut-equilibre-66350-toulouges" target="_blank" rel="noopener" class="btn sticky">Prendre rendez-vous</a>
+
+<script>
+const menuBtn = document.getElementById('menuBtn');
+const menu = document.getElementById('floatingMenu');
+
+function setMenu(open){
+  menu.classList.toggle('active', open);
+  menuBtn.textContent = open ? '✕' : '☰';
+  menuBtn.setAttribute('aria-expanded', open);
+}
+
+menuBtn.addEventListener('click', () => setMenu(!menu.classList.contains('active')));
+menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => setMenu(false)));
+document.addEventListener('click', e => {
+  if(!menu.contains(e.target) && !menuBtn.contains(e.target)) setMenu(false);
+});
+</script>
+
+</body>
+</html>
