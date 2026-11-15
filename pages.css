@@ -1,0 +1,75 @@
+:root{--sage:#80afa9;--sage-d:#4f857d;--deep:#3d5c60;--cream:#f7f3ed;--sand:#e4e3db;--ink:#2b3836;--r:20px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,sans-serif;font-weight:400;color:var(--ink);background:var(--cream);line-height:1.65}
+h1,h2,h3{font-family:'Cormorant Garamond',serif;font-weight:500;line-height:1.15}
+h2{font-size:clamp(2rem,5vw,3rem);margin-bottom:.6rem}
+h3{font-size:1.5rem;margin-bottom:.4rem}
+img{max-width:100%;display:block}
+section{padding:clamp(3.5rem,9vw,6rem) 1.5rem}
+.wrap{max-width:1050px;margin:auto}
+.eyebrow{text-transform:uppercase;letter-spacing:.18em;font-size:.75rem;color:var(--sage-d);font-weight:500;margin-bottom:.8rem;display:block}
+.btn{display:inline-block;background:var(--deep);color:#fff;padding:.9rem 1.8rem;border-radius:99px;text-decoration:none;font-weight:400;transition:.25s}
+.btn:hover{background:var(--ink);transform:translateY(-2px)}
+.btn.ghost{background:transparent;border:1px solid #fff}
+.btn.ghost:hover{background:#fff;color:var(--ink)}
+.btn.light{background:#fff;color:var(--deep)}
+.btn.big{padding:1.1rem 2.2rem;font-size:1.05rem}
+.actions{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap}
+
+.top{position:absolute;top:0;left:0;right:0;display:flex;justify-content:space-between;align-items:center;padding:1.2rem 1.5rem;z-index:10}
+.top.solid{position:static;background:var(--deep)}
+.top a{color:#fff;text-decoration:none;font-size:.9rem}
+.top .brand{letter-spacing:.25em;text-transform:uppercase;font-size:.8rem}
+
+.hero{min-height:560px;display:grid;place-items:center;text-align:center;color:#fff;padding:7rem 1.5rem 4rem;
+background:linear-gradient(rgba(79,133,125,.85),rgba(61,92,96,.94)),var(--bg) center/cover}
+.hero .eyebrow{color:#fff}
+.hero h1{font-size:clamp(2.3rem,6.5vw,4.2rem);margin:.6rem auto 1rem;font-style:italic;font-weight:400;max-width:820px}
+.hero p{max-width:580px;margin:0 auto 2rem;font-size:1.1rem}
+
+.alt{background:#fff}
+.sand{background:var(--sand)}
+.split{display:grid;gap:3rem;align-items:center}
+@media(min-width:800px){.split{grid-template-columns:1fr 1.2fr}.split.rev{grid-template-columns:1.2fr 1fr}.split.rev img{order:2}}
+.split img{border-radius:var(--r);width:100%;aspect-ratio:4/5;object-fit:cover}
+.txt p{margin-bottom:1rem}
+.ticks{list-style:none;margin-top:1rem}
+.ticks li{padding:.4rem 0 .4rem 1.4rem;position:relative}
+.ticks li:before{content:"✦";position:absolute;left:0;color:var(--sage-d);font-size:.8rem;top:.65rem}
+
+.prices{background:#fff;border-radius:var(--r);padding:.6rem 1.8rem;margin-top:1.8rem;box-shadow:0 10px 30px rgba(0,0,0,.06)}
+.row{display:flex;justify-content:space-between;gap:1rem;padding:.9rem 0;border-top:1px solid var(--sand)}
+.row:first-child{border-top:0}
+.row div span{display:block;font-size:.9rem;opacity:.8}
+.row b{font-weight:500;color:var(--sage-d);white-space:nowrap}
+.more{display:inline-block;margin-top:1rem;color:var(--deep);font-weight:500;text-decoration:none;border-bottom:1px solid}
+.note{font-size:.9rem;opacity:.8;margin-top:1rem}
+.warn{background:#fff;border-left:4px solid var(--sage-d);border-radius:12px;padding:1.2rem 1.5rem;margin-top:1.2rem}
+
+.final{background:var(--deep);color:#fff;text-align:center}
+.final .eyebrow{color:var(--sage)}
+.final p{max-width:540px;margin:0 auto 1.8rem}
+.final .alt-link{display:block;margin-top:1.2rem;color:#fff;font-size:.95rem}
+
+.legal{max-width:760px;margin:auto;padding:3rem 1.5rem}
+.legal h1{font-size:clamp(2.2rem,6vw,3.2rem);margin-bottom:1rem}
+.legal h2{font-size:1.7rem;margin:2.2rem 0 .5rem}
+.legal p,.legal li{margin-bottom:.6rem}
+.legal ul{margin-left:1.2rem}
+.legal a{color:var(--deep)}
+mark.todo{background:#fff3b0;padding:0 .3rem;border-radius:4px}
+
+footer{text-align:center;padding:2rem 1rem 6rem;font-size:.8rem;opacity:.7}
+footer a{color:inherit}
+.sticky{display:none}
+@media(max-width:600px){
+  html{font-size:16px}
+  section{padding:2.5rem 1rem}
+  .hero{min-height:0;padding:6rem 1rem 3rem}
+  .actions .btn{width:100%;text-align:center}
+  h2{font-size:1.8rem}
+  .top .brand{font-size:.65rem}
+  .prices{padding:.4rem 1.1rem}
+  .sticky{display:block;position:fixed;bottom:14px;left:14px;right:14px;text-align:center;z-index:1001;box-shadow:0 10px 25px rgba(0,0,0,.3)}
+}
